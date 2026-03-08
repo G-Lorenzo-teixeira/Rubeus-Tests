@@ -1,0 +1,15 @@
+{
+  "name": "rubeus-tests",
+  "version": "1.0.0",
+  "description": "Testes E2E (Playwright) — Certificação e Site APPRBS — Processo Rubeus",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:certificacao": "playwright test tests/e2e/certificacao-apprbs.spec.ts",
+    "test:site": "playwright test tests/e2e/site-apprbs.spec.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "typescript": "^5.0.0"
+  }
+}
